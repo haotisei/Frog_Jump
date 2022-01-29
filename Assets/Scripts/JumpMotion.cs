@@ -8,6 +8,7 @@ public class JumpMotion : MonoBehaviour
     private float jumpPressure;
     private float minJump;
     private float maxJumpPressure;
+    public Transform Player;
 
     public Rigidbody rbody;
 
@@ -43,7 +44,7 @@ public class JumpMotion : MonoBehaviour
                 if(jumpPressure >0f)
                 {
                     jumpPressure = jumpPressure + minJump;
-                    rbody.velocity = new Vector3(jumpPressure, jumpPressure, 0f);
+                    rbody.velocity = new Vector3(jumpPressure, jumpPressure, transform.position.z);
                     jumpPressure = 0f;
                     onGround = false;
                 }

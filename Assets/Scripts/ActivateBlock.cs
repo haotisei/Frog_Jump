@@ -5,13 +5,15 @@ using UnityEngine;
 public class ActivateBlock : MonoBehaviour
 {
     public GameObject NextObject;
+    public Transform Object;
+    public GameObject Player;
 
   void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.CompareTag("Player"))
             {
             NextObject.SetActive(true);
-            Debug.Log("Block Activated");
+            Player.transform.LookAt(Object);
              }
     }
 }
