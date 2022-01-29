@@ -35,7 +35,7 @@ public class JumpMotion : MonoBehaviour
                 {
                     jumpPressure = maxJumpPressure;
                 }
-                print(jumpPressure);
+               
             }
 
             else
