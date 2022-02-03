@@ -1,0 +1,26 @@
+Unity Editor version:    2020.3.25f1 (9b9180224418)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.6.2 (Build 20G314)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker10
+-projectPath
+/Users/gabumon/Desktop/Karina/GitHub/Frog_Jump
+-logFile
+Logs/AssetImportWorker10.log
+-srvPort
+49687
+Successfully changed project path to: /Users/gabumon/Desktop/Karina/GitHub/Frog_Jump

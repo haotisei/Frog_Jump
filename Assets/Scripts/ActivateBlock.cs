@@ -5,8 +5,8 @@ using UnityEngine;
 public class ActivateBlock : MonoBehaviour
 {
     public GameObject NextObject;
+    public Transform Player;
     public Transform Object;
-    public GameObject Player;
 
   void OnCollisionEnter(Collision other)
     {
@@ -16,4 +16,6 @@ public class ActivateBlock : MonoBehaviour
             Player.transform.LookAt(Object);
              }
     }
+
+  
 }

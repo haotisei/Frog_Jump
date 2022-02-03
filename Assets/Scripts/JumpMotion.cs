@@ -8,7 +8,7 @@ public class JumpMotion : MonoBehaviour
     private float jumpPressure;
     private float minJump;
     private float maxJumpPressure;
-    public Transform Player;
+    public  Transform Player;
 
     public Rigidbody rbody;
 
@@ -19,6 +19,7 @@ public class JumpMotion : MonoBehaviour
         jumpPressure = 0f;
         minJump = 2f;
         maxJumpPressure = 10f;
+        
     }
 
     // Update is called once per frame
@@ -44,13 +45,12 @@ public class JumpMotion : MonoBehaviour
                 if(jumpPressure >0f)
                 {
                     jumpPressure = jumpPressure + minJump;
-                    rbody.velocity = new Vector3(jumpPressure, jumpPressure, transform.position.z);
+                    rbody.velocity = (Player.forward + Player.up) * jumpPressure;
                     jumpPressure = 0f;
                     onGround = false;
                 }
             }
         }
-
     }
 
     void OnCollisionEnter(Collision other)

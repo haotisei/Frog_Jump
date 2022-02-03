@@ -1,0 +1,39 @@
+Unity Editor version:    2020.3.25f1 (9b9180224418)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.6.2 (Build 20G314)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker16
+-projectPath
+/Users/gabumon/Desktop/Karina/GitHub/Frog_Jump
+-logFile
+Logs/AssetImportWorker16.log
+-srvPort
+49687
+Successfully changed project path to: /Users/gabumon/Desktop/Karina/GitHub/Frog_Jump
+/Users/gabumon/Desktop/Karina/GitHub/Frog_Jump
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 1638.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/gabumon/Desktop/Karina/GitHub/Frog_Jump/Assets
+GfxDevice: creating device client; threaded=0
+2022-01-31 22:53:40.233 Unity[1182:25125] iMac preferred device: Intel(R) Iris(TM) Pro Graphics 6200 (low power)
+2022-01-31 22:53:40.233 Unity[1182:25125] Metal devices available: 1
+2022-01-31 22:53:40.233 Unity[1182:25125] 0: Intel(R) Iris(TM) Pro Graphics 6200 (low power)
+2022-01-31 22:53:40.234 Unity[1182:25125] Using device Intel(R) Iris(TM) Pro Graphics 6200 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Pro Graphics 6200
