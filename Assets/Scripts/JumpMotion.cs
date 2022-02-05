@@ -9,6 +9,7 @@ public class JumpMotion : MonoBehaviour
     private float minJump;
     private float maxJumpPressure;
     public  Transform Player;
+    public Game Game;
 
     public Rigidbody rbody;
 
@@ -58,6 +59,11 @@ public class JumpMotion : MonoBehaviour
         if(other.gameObject.CompareTag("ground"))
         {
             onGround = true;
+        }
+
+        else
+        {
+            Game.GameOver();
         }
     }
 }
