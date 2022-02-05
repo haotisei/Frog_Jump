@@ -9,12 +9,22 @@ public class Game : MonoBehaviour
     public GameObject GameWonScreen;
     public GameObject GameOnScreen;
 
+  
+
     public enum GameState
     {
         Menu,
         Playing,
         Won,
         Loss,
+    }
+
+    void Update()
+    {
+        if(Scores.PlatformScore > Scores.HighScore)
+        {
+            Scores.HighScore = Scores.PlatformScore;
+        }
     }
 
     public void GameOver()

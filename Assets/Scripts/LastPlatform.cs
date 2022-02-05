@@ -10,6 +10,8 @@ public class LastPlatform : MonoBehaviour
     void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.CompareTag("Player"))
-        { Game.GameWon(); }
+        {
+            Scores.PlatformScore++;
+            Game.GameWon(); }
     }
 }

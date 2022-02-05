@@ -14,6 +14,8 @@ public class ActivateBlock : MonoBehaviour
             {
             NextObject.SetActive(true);
             Player.transform.LookAt(Object);
+            Scores.PlatformScore++;
+            Scores.ComboCount = 0;
              }
     }
 

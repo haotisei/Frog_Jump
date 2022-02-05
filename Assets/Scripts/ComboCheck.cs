@@ -6,6 +6,7 @@ public class ComboCheck : MonoBehaviour
 {
     void OnTriggerEnter()
     {
-        Debug.Log("Trigger!");
+        Scores.Combo();
+        Destroy(gameObject);
     }
 }

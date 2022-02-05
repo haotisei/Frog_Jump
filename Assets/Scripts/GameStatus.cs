@@ -13,7 +13,8 @@ public class GameStatus : MonoBehaviour
 
     public void RestartGame()
     {
-        //StatsSave.Score = 0;
+        Scores.PlatformScore = 0;
+        Scores.StarScore = 0;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
