@@ -9,7 +9,7 @@ public class StarsCount : MonoBehaviour
     {
         Star.SetActive(false);
         Scores.StarScore++;
-        Debug.Log(Scores.StarScore);
+        
     }
 
 }
