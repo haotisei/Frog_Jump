@@ -15991,3 +15991,684 @@ AssetImportParameters requested are different than current active one (requested
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.099828 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.619 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1620ms)
+		BeginReloadAssembly (175ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (87ms)
+		EndReloadAssembly (1361ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (495ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (440ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (149ms)
+				ProcessInitializeOnLoadAttributes (271ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3084 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 326.0 MB.
+System memory in use after: 323.2 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 4115.
+Total: 6.941899 ms (FindLiveObjects: 0.272790 ms CreateObjectMapping: 0.173613 ms MarkObjects: 3.890393 ms  DeleteObjects: 2.604074 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 130403.055539 seconds.
+  path: Assets/Other Assets/20 Logos PSD
+  artifactKey: Guid(50b7422a80a684948945b745c133bf47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/20 Logos PSD using Guid(50b7422a80a684948945b745c133bf47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1efdcdd30765c5ad052472626fa82c28') in 0.378721 seconds 
+  Import took 0.538094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.348808 seconds.
+  path: Assets/Other Assets/20 Logos PSD/Background
+  artifactKey: Guid(fb995d103e44c2b40a5f4a47fa32a08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/20 Logos PSD/Background using Guid(fb995d103e44c2b40a5f4a47fa32a08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64fe4d785e360637e6d7a45e226e7228') in 0.037620 seconds 
+  Import took 0.179598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 324.320870 seconds.
+  path: Assets/Other Assets/20 Logos PSD/PNG/Title 1.png
+  artifactKey: Guid(4b91ec5e12c293a4f9fef25137e7ea69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/20 Logos PSD/PNG/Title 1.png using Guid(4b91ec5e12c293a4f9fef25137e7ea69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aefcf710f3aaf3b40cb93c5c1087b19') in 0.741516 seconds 
+  Import took 0.843874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Other Assets/20 Logos PSD/PNG/Title 5.png
+  artifactKey: Guid(19c1fbf87da6ee94583dd8f56095f73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/20 Logos PSD/PNG/Title 5.png using Guid(19c1fbf87da6ee94583dd8f56095f73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d2e1b28e91570f678a5f3a1e66e587') in 0.110389 seconds 
+  Import took 0.226714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Other Assets/20 Logos PSD/PNG/Title 13.png
+  artifactKey: Guid(46ab39438fede044892a4357da0fe6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/20 Logos PSD/PNG/Title 13.png using Guid(46ab39438fede044892a4357da0fe6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603d15af211d7648ac7705b0cd8dc582') in 0.134696 seconds 
+  Import took 0.170322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Other Assets/20 Logos PSD/PNG/Title 20.png
+  artifactKey: Guid(b06352ed46b3cf64aaf84f2368968513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/20 Logos PSD/PNG/Title 20.png using Guid(b06352ed46b3cf64aaf84f2368968513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f73850f612b35b50981342e3d8dd94') in 0.162886 seconds 
+  Import took 0.195473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Other Assets/20 Logos PSD/PNG/Title 12.png
+  artifactKey: Guid(79cfcae44c0faf14ab32489d0db4bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/20 Logos PSD/PNG/Title 12.png using Guid(79cfcae44c0faf14ab32489d0db4bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f1bc4a3590bb6431346a063aa2b393c') in 0.091488 seconds 
+  Import took 0.148110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Other Assets/20 Logos PSD/PNG/Title 3.png
+  artifactKey: Guid(d95e96013c13ef84d9044e7de4993bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/20 Logos PSD/PNG/Title 3.png using Guid(d95e96013c13ef84d9044e7de4993bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551a93b791fcf6e8ca5daae398b26b1a') in 0.176133 seconds 
+  Import took 0.219582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Other Assets/20 Logos PSD/PNG/Title 14.png
+  artifactKey: Guid(2a1275c6a8377e042be234925a89cd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/20 Logos PSD/PNG/Title 14.png using Guid(2a1275c6a8377e042be234925a89cd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09cd139086e3bd550ea8d982d3aff309') in 0.262791 seconds 
+  Import took 0.291469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Other Assets/20 Logos PSD/PNG/Title 4.png
+  artifactKey: Guid(7772802e9c2245149a627f1f4923780f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/20 Logos PSD/PNG/Title 4.png using Guid(7772802e9c2245149a627f1f4923780f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eaa0fb38a9e89adab8c58a6a969a6b4') in 0.146357 seconds 
+  Import took 0.283996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Other Assets/20 Logos PSD/PNG/Title 17.png
+  artifactKey: Guid(dbf41ce47e480e9409e939b9fb3265a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/20 Logos PSD/PNG/Title 17.png using Guid(dbf41ce47e480e9409e939b9fb3265a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9b15de8dde7aca476951c4a9cb70b2') in 0.115128 seconds 
+  Import took 0.270441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/Other Assets/20 Logos PSD/PNG/Title 11.png
+  artifactKey: Guid(8bcba546afc881c42ad28fbdf7963c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/20 Logos PSD/PNG/Title 11.png using Guid(8bcba546afc881c42ad28fbdf7963c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25908682c031d3f200b010f198b8c13e') in 0.183299 seconds 
+  Import took 0.419133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Other Assets/20 Logos PSD/PNG
+  artifactKey: Guid(6e3ca3e4f6d77ad468764915ee01341a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/20 Logos PSD/PNG using Guid(6e3ca3e4f6d77ad468764915ee01341a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd829c9fe85cff810e5441580e6193160') in 0.171203 seconds 
+  Import took 0.243127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Other Assets/20 Logos PSD/PNG/Title 18.png
+  artifactKey: Guid(f5e7af25d1ca33f489b189c9ed86e344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/20 Logos PSD/PNG/Title 18.png using Guid(f5e7af25d1ca33f489b189c9ed86e344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2382e3bbf7306f8537292b2d1026128f') in 0.135311 seconds 
+  Import took 0.227417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/Other Assets/20 Logos PSD/PNG/Title 19.png
+  artifactKey: Guid(7e4898c917c0d4b40a8f5d10b6a6f516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/20 Logos PSD/PNG/Title 19.png using Guid(7e4898c917c0d4b40a8f5d10b6a6f516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1e3c8140648e281bbd0720cfad5590') in 0.171442 seconds 
+  Import took 0.273503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Other Assets/20 Logos PSD/PNG/Title 8.png
+  artifactKey: Guid(19791b9dbbd16c84589baea865e87a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/20 Logos PSD/PNG/Title 8.png using Guid(19791b9dbbd16c84589baea865e87a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc989331871a12baa2092a1c1dd1a29c') in 0.159900 seconds 
+  Import took 0.200281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Other Assets/20 Logos PSD/PNG/Title 10.png
+  artifactKey: Guid(d17b68aa9db9e0f4287741c9ab9e0e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/20 Logos PSD/PNG/Title 10.png using Guid(d17b68aa9db9e0f4287741c9ab9e0e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cac6cc47f6b73d322462f352176f1af') in 0.121260 seconds 
+  Import took 0.409007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Other Assets/20 Logos PSD/PNG/Title 2.png
+  artifactKey: Guid(1568b3ca93d78de43a2b9a9ccca8861f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/20 Logos PSD/PNG/Title 2.png using Guid(1568b3ca93d78de43a2b9a9ccca8861f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8464f1fcedd69a625df3917845d6753e') in 0.563727 seconds 
+  Import took 0.789687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010371 seconds.
+  path: Assets/Other Assets/20 Logos PSD/PNG/Title 7.png
+  artifactKey: Guid(69af4ca2c3f3a644bb9f28b587ed54ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/20 Logos PSD/PNG/Title 7.png using Guid(69af4ca2c3f3a644bb9f28b587ed54ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a321ee715575383ecc70ae0eddd2aa') in 0.098638 seconds 
+  Import took 0.106433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Other Assets/20 Logos PSD/PNG/Title 16.png
+  artifactKey: Guid(f253c01efbb9b1a47a7a7a5f3dfa6e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/20 Logos PSD/PNG/Title 16.png using Guid(f253c01efbb9b1a47a7a7a5f3dfa6e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b154e10b7fc2105bf4f42275343b071') in 0.092411 seconds 
+  Import took 0.098517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Other Assets/20 Logos PSD/PNG/Title 9.png
+  artifactKey: Guid(756b372f663e3214ebad8f7bfe436c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/20 Logos PSD/PNG/Title 9.png using Guid(756b372f663e3214ebad8f7bfe436c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917830ccd51aef9648f6662891b907d7') in 0.087746 seconds 
+  Import took 0.114661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Other Assets/20 Logos PSD/PNG/Title 15.png
+  artifactKey: Guid(2441113a79c7f9e47a83a49f54b3915c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/20 Logos PSD/PNG/Title 15.png using Guid(2441113a79c7f9e47a83a49f54b3915c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '456b15ec5dbdecae8b335901d0e73763') in 0.065320 seconds 
+  Import took 0.090276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Other Assets/20 Logos PSD/PNG/Title 6.png
+  artifactKey: Guid(e8c69bba62777214c99aa45cc05737e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/20 Logos PSD/PNG/Title 6.png using Guid(e8c69bba62777214c99aa45cc05737e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5159e3143210d3c7c79cdd5d52f00f93') in 0.084180 seconds 
+  Import took 0.139456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.945033 seconds.
+  path: Assets/Other Assets/20 Logos PSD/Fonts
+  artifactKey: Guid(27ce50f04aec83c48916e95d60b4869c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/20 Logos PSD/Fonts using Guid(27ce50f04aec83c48916e95d60b4869c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac988c45f15fa737b0fdaa08caa8e88c') in 0.001290 seconds 
+  Import took 0.038108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 635.577035 seconds.
+  path: Assets/Other Assets/JellyIcons/512x512/Icons/YellowCircles/YellowCircleMusic.png
+  artifactKey: Guid(e51c2fe046298cb47bd55b41639c8e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/512x512/Icons/YellowCircles/YellowCircleMusic.png using Guid(e51c2fe046298cb47bd55b41639c8e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db95f995b1d21b6b57623306ef582e0e') in 0.155780 seconds 
+  Import took 0.221199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Other Assets/JellyIcons/128x128/YellowCircles/YellowCircleMenu2.png
+  artifactKey: Guid(ea17feb2c89e56341a3dcee487163958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/128x128/YellowCircles/YellowCircleMenu2.png using Guid(ea17feb2c89e56341a3dcee487163958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e052aaef71041bcf34231ea09089295') in 0.115491 seconds 
+  Import took 0.201634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Other Assets/JellyIcons/128x128/YellowCircles/YellowCircleMinus.png
+  artifactKey: Guid(2d75cc88c85bcca4c8d9610fde1c88ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/128x128/YellowCircles/YellowCircleMinus.png using Guid(2d75cc88c85bcca4c8d9610fde1c88ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aff578882cd4889c70849742d00e084') in 0.080331 seconds 
+  Import took 0.109876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleMenu2.png
+  artifactKey: Guid(b05f61dcb395f3d4280980cc271c0175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleMenu2.png using Guid(b05f61dcb395f3d4280980cc271c0175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7683a95fcfdecb1f139e284c15c4c964') in 0.108902 seconds 
+  Import took 0.146395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Other Assets/JellyIcons/512x512/Icons/YellowCircles/YellowCircleMinus.png
+  artifactKey: Guid(809de5882285fe84394ea44eba7561bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/512x512/Icons/YellowCircles/YellowCircleMinus.png using Guid(809de5882285fe84394ea44eba7561bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916533f8eef15856907d230ac9b9e319') in 0.097166 seconds 
+  Import took 0.104987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000636 seconds.
+  path: Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleMusicOff.png
+  artifactKey: Guid(ce026c8ddc221504ab00d7c651dae6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleMusicOff.png using Guid(ce026c8ddc221504ab00d7c651dae6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3354814be00f79546c1b816aad5167ab') in 0.062893 seconds 
+  Import took 0.114853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Other Assets/JellyIcons/512x512/Icons/YellowCircles/YellowCircleMusicOff.png
+  artifactKey: Guid(e15a2058c13e92b49b453e6223967233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/512x512/Icons/YellowCircles/YellowCircleMusicOff.png using Guid(e15a2058c13e92b49b453e6223967233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e108d498c9a70575ac854beac5303ebc') in 0.088106 seconds 
+  Import took 0.113113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleMinus.png
+  artifactKey: Guid(651714e0d8cd99241ae570f4325cdac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleMinus.png using Guid(651714e0d8cd99241ae570f4325cdac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa171a9978cea04ffd6a4e1be01d29c') in 0.090303 seconds 
+  Import took 0.116917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Other Assets/JellyIcons/128x128/YellowCircles/YellowCircleMusic.png
+  artifactKey: Guid(2fdd926a36b505a4da85fefdc80b1eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/128x128/YellowCircles/YellowCircleMusic.png using Guid(2fdd926a36b505a4da85fefdc80b1eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb4dc2402438617513fcaf17d55d19c') in 0.065119 seconds 
+  Import took 0.124099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleMusic.png
+  artifactKey: Guid(5ce00100640913d4099f0b6a30020ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleMusic.png using Guid(5ce00100640913d4099f0b6a30020ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3879193a90b3b1012ec5d9d6e0767058') in 0.063510 seconds 
+  Import took 0.119713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.478634 seconds.
+  path: Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleMenu.png
+  artifactKey: Guid(b78f990a1b944b94fb166de1ad8f27d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleMenu.png using Guid(b78f990a1b944b94fb166de1ad8f27d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64efdd68ca226c5570b840ced3bcd39') in 0.110586 seconds 
+  Import took 0.128497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Other Assets/JellyIcons/512x512/Icons/YellowCircles/YellowCircleMenu2.png
+  artifactKey: Guid(f419256fab39421499782e1edd449a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/512x512/Icons/YellowCircles/YellowCircleMenu2.png using Guid(f419256fab39421499782e1edd449a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69cdafc98e5ae0725fe259cd19cc2280') in 0.116430 seconds 
+  Import took 0.148777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.579674 seconds.
+  path: Assets/Other Assets/JellyIcons/512x512/Icons/YellowCircles/YellowCircleLock.png
+  artifactKey: Guid(4b3fe4cc56c86ff4da39c8489a0dd223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/512x512/Icons/YellowCircles/YellowCircleLock.png using Guid(4b3fe4cc56c86ff4da39c8489a0dd223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a07d56c4ef3038bddfd23aa8abbc809') in 0.128716 seconds 
+  Import took 0.158532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Other Assets/JellyIcons/128x128/YellowCircles/YellowCircleMenu.png
+  artifactKey: Guid(766bc4f3ee53a8242836a38343a01e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/128x128/YellowCircles/YellowCircleMenu.png using Guid(766bc4f3ee53a8242836a38343a01e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4bb1e170d85babac734fdabdb7c9f7') in 0.111284 seconds 
+  Import took 0.147904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.195271 seconds.
+  path: Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleLock.png
+  artifactKey: Guid(91b9e76d40abaaa4898b77bee766469d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleLock.png using Guid(91b9e76d40abaaa4898b77bee766469d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66eee0862d8a51405fbcdaab98cad1e3') in 0.073485 seconds 
+  Import took 0.125310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Other Assets/JellyIcons/128x128/YellowCircles/YellowCircleLock.png
+  artifactKey: Guid(d75db3cd458ee264c96558519f089419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/128x128/YellowCircles/YellowCircleLock.png using Guid(d75db3cd458ee264c96558519f089419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c3d736c474d2ed9e5c55b1d865c3737') in 0.068885 seconds 
+  Import took 0.092147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.570753 seconds.
+  path: Assets/Other Assets/JellyIcons/128x128/YellowCircles/YellowCircleLadder.png
+  artifactKey: Guid(61e79fe1ed0a842458ba64be0945e492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/128x128/YellowCircles/YellowCircleLadder.png using Guid(61e79fe1ed0a842458ba64be0945e492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114f3ca5532a90ab9386b19af6ae4ae4') in 0.095917 seconds 
+  Import took 0.133592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleJoystick.png
+  artifactKey: Guid(17dd250b05947964db0e2c8ca76d6673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleJoystick.png using Guid(17dd250b05947964db0e2c8ca76d6673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a067c406bb1e1cf0b802ba6a3074ab95') in 0.087752 seconds 
+  Import took 0.110070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Other Assets/JellyIcons/512x512/Icons/YellowCircles/YellowCircleLadder.png
+  artifactKey: Guid(5ca715ef9e4a9f54492b549385722499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/512x512/Icons/YellowCircles/YellowCircleLadder.png using Guid(5ca715ef9e4a9f54492b549385722499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da047320be377753fe765ed3b02a2d9') in 0.027761 seconds 
+  Import took 0.077628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Other Assets/JellyIcons/128x128/YellowCircles/YellowCircleJoystick.png
+  artifactKey: Guid(540d4b7780b3e324da6723911c98418d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/128x128/YellowCircles/YellowCircleJoystick.png using Guid(540d4b7780b3e324da6723911c98418d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f5f5e62783ea94c2b7b184f9f93ca0') in 0.092599 seconds 
+  Import took 0.126287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Other Assets/JellyIcons/512x512/Icons/YellowCircles/YellowCircleJoystick.png
+  artifactKey: Guid(34833a9bbf6490744a9bd69f59132242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/512x512/Icons/YellowCircles/YellowCircleJoystick.png using Guid(34833a9bbf6490744a9bd69f59132242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3c8ff135cff0e2bc564cbdf15077b5') in 0.068626 seconds 
+  Import took 0.100641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleLadder.png
+  artifactKey: Guid(7e0905b17bb19194c9fc69f143d307e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleLadder.png using Guid(7e0905b17bb19194c9fc69f143d307e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329ca73db3f83bdc8d5178bf1e785398') in 0.073256 seconds 
+  Import took 0.079201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.325974 seconds.
+  path: Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleInfo.png
+  artifactKey: Guid(8dab005ae87f76547802c5f0e5b4412f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleInfo.png using Guid(8dab005ae87f76547802c5f0e5b4412f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327ad0d61b985da5b206a284f25e8e62') in 0.128093 seconds 
+  Import took 0.134431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Other Assets/JellyIcons/128x128/YellowCircles/YellowCircleInfo.png
+  artifactKey: Guid(0590530ac554b3143ae0c60ff5dd8c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/128x128/YellowCircles/YellowCircleInfo.png using Guid(0590530ac554b3143ae0c60ff5dd8c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c982fe31cafdbca6c1047d1d686e3f4') in 0.145144 seconds 
+  Import took 0.174852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.462355 seconds.
+  path: Assets/Other Assets/JellyIcons/128x128/YellowCircles/YellowCircleHome.png
+  artifactKey: Guid(381e86ac54e4d3f46b706e9b18ee2dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/128x128/YellowCircles/YellowCircleHome.png using Guid(381e86ac54e4d3f46b706e9b18ee2dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df577d021eec74b26ca63a73308ce1a') in 0.090534 seconds 
+  Import took 0.258281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Other Assets/JellyIcons/512x512/Icons/YellowCircles/YellowCircleHome.png
+  artifactKey: Guid(7bd2eb937e6445b41b265057da1dc843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/512x512/Icons/YellowCircles/YellowCircleHome.png using Guid(7bd2eb937e6445b41b265057da1dc843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01fb85c1f1c73ff4b6a49c5d8c29f129') in 0.087364 seconds 
+  Import took 0.182404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleHome.png
+  artifactKey: Guid(a6cbb7e0fbf8d364e88c9d4bc87fa720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleHome.png using Guid(a6cbb7e0fbf8d364e88c9d4bc87fa720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75a7c35a61788113ed4ce4df86d9312') in 0.172857 seconds 
+  Import took 0.211036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.315782 seconds.
+  path: Assets/Other Assets/JellyIcons/128x128/YellowCircles/YellowCircleDownload.png
+  artifactKey: Guid(92dca77852a442049aa64ab264af794c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/128x128/YellowCircles/YellowCircleDownload.png using Guid(92dca77852a442049aa64ab264af794c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35985fbcd30908de14207a2351afa8b') in 0.089580 seconds 
+  Import took 0.128582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000632 seconds.
+  path: Assets/Other Assets/JellyIcons/512x512/Icons/YellowCircles/YellowCircleDownload.png
+  artifactKey: Guid(a6768dfde15bbd4439927f9628e54865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/512x512/Icons/YellowCircles/YellowCircleDownload.png using Guid(a6768dfde15bbd4439927f9628e54865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46a43cc1615dc3d6c802aead061a961') in 0.071564 seconds 
+  Import took 0.109326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Other Assets/JellyIcons/512x512/Icons/YellowCircles/YellowCircleDoubleArrow.png
+  artifactKey: Guid(7bf2b391e3804d9418a958827b5b7419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/512x512/Icons/YellowCircles/YellowCircleDoubleArrow.png using Guid(7bf2b391e3804d9418a958827b5b7419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618ddac2324893988984c72c84b31d24') in 0.084530 seconds 
+  Import took 0.112119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Other Assets/JellyIcons/128x128/YellowCircles/YellowCircleDoubleArrow.png
+  artifactKey: Guid(4bae5abef6b71684687f1a790e8bd797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/128x128/YellowCircles/YellowCircleDoubleArrow.png using Guid(4bae5abef6b71684687f1a790e8bd797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84511bccbf760f742921981d0d6c910') in 0.039229 seconds 
+  Import took 0.065151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Other Assets/JellyIcons/128x128/YellowCircles/YellowCircleCup2.png
+  artifactKey: Guid(183004b818c561f4c9e9fab44d486e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/128x128/YellowCircles/YellowCircleCup2.png using Guid(183004b818c561f4c9e9fab44d486e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9270b6dc77f284898d5e785ddcda9b84') in 0.054005 seconds 
+  Import took 0.089304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Other Assets/JellyIcons/512x512/Icons/YellowCircles/YellowCircleCross.png
+  artifactKey: Guid(6571edb4dc4de32439b4e4f2af87037d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/512x512/Icons/YellowCircles/YellowCircleCross.png using Guid(6571edb4dc4de32439b4e4f2af87037d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069050f7fcae9ff595a97adce360ded3') in 0.062881 seconds 
+  Import took 0.088409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Other Assets/JellyIcons/128x128/YellowCircles/YellowCircleCup.png
+  artifactKey: Guid(5eff38325d47b4941b090bf755ece16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/128x128/YellowCircles/YellowCircleCup.png using Guid(5eff38325d47b4941b090bf755ece16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b14d9e7d4f88cb5fd6199e6ac7a4b4d') in 0.077130 seconds 
+  Import took 0.094320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleCross.png
+  artifactKey: Guid(db372929f6978154588e3c3e40d2ac49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleCross.png using Guid(db372929f6978154588e3c3e40d2ac49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0cd2a10e2256af2beb4d2154b707b6') in 0.068664 seconds 
+  Import took 0.089266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Other Assets/JellyIcons/512x512/Icons/YellowCircles/YellowCircleConfirm.png
+  artifactKey: Guid(a67c744eab83ce34389eaa6287d1b839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/512x512/Icons/YellowCircles/YellowCircleConfirm.png using Guid(a67c744eab83ce34389eaa6287d1b839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23462e74804563aff74e256d41e725bb') in 0.053481 seconds 
+  Import took 0.077410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleCup2.png
+  artifactKey: Guid(efc74e2bb9cd2624d829b4d612aa8678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleCup2.png using Guid(efc74e2bb9cd2624d829b4d612aa8678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3061d1c7ed1088583137995633dc05b5') in 0.048141 seconds 
+  Import took 0.082032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleCup1.png
+  artifactKey: Guid(365477432b64f5a4181e13e7bfc4a04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleCup1.png using Guid(365477432b64f5a4181e13e7bfc4a04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5236d8072bb375c30a951814ef33b3f') in 0.025257 seconds 
+  Import took 0.055636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Other Assets/JellyIcons/128x128/YellowCircles/YellowCircleDoubleArrowTop.png
+  artifactKey: Guid(e6d99e438430b6c499deedcb502c506a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/128x128/YellowCircles/YellowCircleDoubleArrowTop.png using Guid(e6d99e438430b6c499deedcb502c506a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5773c3b984ef96f08ba49919343c4aed') in 0.060110 seconds 
+  Import took 0.094442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000685 seconds.
+  path: Assets/Other Assets/JellyIcons/128x128/YellowCircles/YellowCircleCross.png
+  artifactKey: Guid(2f15921cfa89d57479ee3027beb4ac84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/128x128/YellowCircles/YellowCircleCross.png using Guid(2f15921cfa89d57479ee3027beb4ac84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ab0101ace0af2ba565f91db4ba6f96') in 0.103320 seconds 
+  Import took 0.173298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleDoubleArrow.png
+  artifactKey: Guid(78ee0cb7f2330884286621a433f38f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleDoubleArrow.png using Guid(78ee0cb7f2330884286621a433f38f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f66b40900a33eb01ffe31b30aaa364d') in 0.077719 seconds 
+  Import took 0.106075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleDoubleArrowTop.png
+  artifactKey: Guid(41898526d3365324997484f366ea9e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleDoubleArrowTop.png using Guid(41898526d3365324997484f366ea9e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ead66ca67240c7aaf7ecad3f3f82102') in 0.092756 seconds 
+  Import took 0.121951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Other Assets/JellyIcons/128x128/YellowCircles/YellowCircleDownloadLeft.png
+  artifactKey: Guid(08583e7eacfb6a84390f98b9aa1cdd62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/128x128/YellowCircles/YellowCircleDownloadLeft.png using Guid(08583e7eacfb6a84390f98b9aa1cdd62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab368992d6842ed52a9d98a4289c3440') in 0.044571 seconds 
+  Import took 0.066517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000584 seconds.
+  path: Assets/Other Assets/JellyIcons/128x128/YellowCircles/YellowCircleCup1.png
+  artifactKey: Guid(b0241482bcd79684f853e9f04f69860a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/128x128/YellowCircles/YellowCircleCup1.png using Guid(b0241482bcd79684f853e9f04f69860a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e05e771ebb213df894c4b864f28f80f') in 0.066954 seconds 
+  Import took 0.110241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Other Assets/JellyIcons/512x512/Icons/YellowCircles/YellowCircleDownloadLeft.png
+  artifactKey: Guid(6e7799a1a9fdbae479a2b36ea9998a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/512x512/Icons/YellowCircles/YellowCircleDownloadLeft.png using Guid(6e7799a1a9fdbae479a2b36ea9998a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8414468481343c9720b235f87bb61592') in 0.045042 seconds 
+  Import took 0.061412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleCup.png
+  artifactKey: Guid(38ddab3dfe67e094dae9b0d2cf53cf07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleCup.png using Guid(38ddab3dfe67e094dae9b0d2cf53cf07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01373795e9bc51754fe9da6928e7a5b6') in 0.087489 seconds 
+  Import took 0.105819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Other Assets/JellyIcons/512x512/Icons/YellowCircles/YellowCircleCup.png
+  artifactKey: Guid(6f97cc93dc0c97445b7c2722bfafd0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/512x512/Icons/YellowCircles/YellowCircleCup.png using Guid(6f97cc93dc0c97445b7c2722bfafd0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e4209cd78a5a564ef2cc5cf4046d59') in 0.075192 seconds 
+  Import took 0.082129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleDownloadLeft.png
+  artifactKey: Guid(d9191312c6508734db08a784236c7f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleDownloadLeft.png using Guid(d9191312c6508734db08a784236c7f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50155f911ba7a4843d4de4a14c291de7') in 0.035475 seconds 
+  Import took 0.076201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Other Assets/JellyIcons/512x512/Icons/YellowCircles/YellowCircleCup2.png
+  artifactKey: Guid(132d657910711934ab52d103d7260db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/512x512/Icons/YellowCircles/YellowCircleCup2.png using Guid(132d657910711934ab52d103d7260db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9fa55587e5c804308585059f1010e6') in 0.101446 seconds 
+  Import took 0.164877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Other Assets/JellyIcons/512x512/Icons/YellowCircles/YellowCircleDoubleArrowTop.png
+  artifactKey: Guid(5f487e8d92c276c4a8943b8643daced2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/512x512/Icons/YellowCircles/YellowCircleDoubleArrowTop.png using Guid(5f487e8d92c276c4a8943b8643daced2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b32af3ab1afb49cba6e4a77d37533c') in 0.056790 seconds 
+  Import took 0.087212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleDownload.png
+  artifactKey: Guid(394b65514e4d19043a4b644ce70960ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/JellyIcons/256x256/Icons/YellowCircles/YellowCircleDownload.png using Guid(394b65514e4d19043a4b644ce70960ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9cec6e5fe270b38f0849501fad19e8') in 0.036703 seconds 
+  Import took 0.089224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 133.214099 seconds.
+  path: Assets/Scripts/GameStatus.cs
+  artifactKey: Guid(373c75f4c4464469e9f8e5878388b907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameStatus.cs using Guid(373c75f4c4464469e9f8e5878388b907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25836d3c29f88dee849195812cc40d1') in 0.034593 seconds 
+  Import took 0.128066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.062607 seconds.
+  path: Assets/Character/eyes.jpg
+  artifactKey: Guid(ceffa3856579d4c7ba8960200a9dce6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/eyes.jpg using Guid(ceffa3856579d4c7ba8960200a9dce6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e841852abecbbb8236dfded774ff803a') in 1.777837 seconds 
+  Import took 1.893835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Character/frogBody.jpg
+  artifactKey: Guid(00ac0a60cb88e4d0ebb6c237de3d01c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/frogBody.jpg using Guid(00ac0a60cb88e4d0ebb6c237de3d01c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6695fe18de5dcf14b2c30fcb2e166f3') in 0.058578 seconds 
+  Import took 0.101923 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.135337 seconds.
